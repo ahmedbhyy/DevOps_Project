@@ -83,8 +83,10 @@ class ActivitySectorImplTest {
         activitySectorService.deleteActivitySector(savedActivitySector.getIdSecteurActivite());
 
         // Assert
-        assertThrows(IllegalArgumentException.class,
-                () -> activitySectorService.retrieveActivitySector(savedActivitySector.getIdSecteurActivite()));
+       assertThrows(IllegalArgumentException.class,
+        () -> {
+            activitySectorService.retrieveActivitySector(savedActivitySector.getIdSecteurActivite());
+        });
     }
 
     @Test
