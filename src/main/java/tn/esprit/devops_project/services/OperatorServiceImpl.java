@@ -6,7 +6,7 @@ import lombok.experimental.FieldDefaults;
 import org.springframework.stereotype.Service;
 import tn.esprit.devops_project.entities.Operator;
 import tn.esprit.devops_project.repositories.OperatorRepository;
-import tn.esprit.devops_project.services.Iservices.IOperatorService;
+import tn.esprit.devops_project.services.iservices.IOperatorService;
 
 @Service
 @AllArgsConstructor
