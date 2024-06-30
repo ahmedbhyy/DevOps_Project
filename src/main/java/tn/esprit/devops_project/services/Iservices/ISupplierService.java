@@ -1,4 +1,4 @@
-package tn.esprit.devops_project.services.iservices;
+package tn.esprit.devops_project.services.Iservices;
 
 import tn.esprit.devops_project.entities.Supplier;
 

@@ -7,7 +7,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import tn.esprit.devops_project.entities.Operator;
 import tn.esprit.devops_project.repositories.OperatorRepository;
-import tn.esprit.devops_project.services.iservices.IOperatorService;
+import tn.esprit.devops_project.services.Iservices.IOperatorService;
 
 @Service
 @AllArgsConstructor

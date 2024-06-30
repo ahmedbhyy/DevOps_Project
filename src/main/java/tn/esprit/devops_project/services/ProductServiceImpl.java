@@ -7,7 +7,8 @@ import tn.esprit.devops_project.entities.ProductCategory;
 import tn.esprit.devops_project.entities.Stock;
 import tn.esprit.devops_project.repositories.ProductRepository;
 import tn.esprit.devops_project.repositories.StockRepository;
-import tn.esprit.devops_project.services.iservices.IProductService;
+import tn.esprit.devops_project.services.Iservices.IProductService;
+
 import java.util.List;
 
 @Service
