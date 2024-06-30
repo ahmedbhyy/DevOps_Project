@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import tn.esprit.devops_project.entities.Stock;
 import tn.esprit.devops_project.services.iservices.IStockService;
+
 import java.util.List;
 
 @CrossOrigin(origins = "*")

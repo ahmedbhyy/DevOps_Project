@@ -3,9 +3,7 @@ package tn.esprit.devops_project.services;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.experimental.FieldDefaults;
-
 import java.util.List;
-
 import org.springframework.stereotype.Service;
 import tn.esprit.devops_project.entities.Operator;
 import tn.esprit.devops_project.repositories.OperatorRepository;

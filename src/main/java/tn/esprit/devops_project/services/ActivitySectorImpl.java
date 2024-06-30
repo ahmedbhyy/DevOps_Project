@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 import tn.esprit.devops_project.entities.ActivitySector;
 import tn.esprit.devops_project.repositories.ActivitySectorRepository;
 import tn.esprit.devops_project.services.iservices.IActivitySector;
-
 import java.util.List;
 
 @Service
