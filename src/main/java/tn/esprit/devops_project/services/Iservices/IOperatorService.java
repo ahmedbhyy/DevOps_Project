@@ -4,7 +4,6 @@ import tn.esprit.devops_project.entities.Operator;
 
 import java.util.List;
 
-
 public interface IOperatorService {
 
 	List<Operator> retrieveAllOperators();

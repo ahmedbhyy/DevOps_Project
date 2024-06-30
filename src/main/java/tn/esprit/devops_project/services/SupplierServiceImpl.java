@@ -6,8 +6,6 @@ import org.springframework.stereotype.Service;
 import tn.esprit.devops_project.entities.Supplier;
 import tn.esprit.devops_project.repositories.SupplierRepository;
 import tn.esprit.devops_project.services.iservices.ISupplierService;
-
-
 import java.util.List;
 
 @Service
@@ -22,7 +20,6 @@ public class SupplierServiceImpl implements ISupplierService {
 		return supplierRepository.findAll();
 	}
 
-
 	@Override
 	public Supplier addSupplier(Supplier supplier) {
 		return supplierRepository.save(supplier);
@@ -30,7 +27,7 @@ public class SupplierServiceImpl implements ISupplierService {
 
 	@Override
 	public Supplier updateSupplier(Supplier supplier) {
-		return  supplierRepository.save(supplier);
+		return supplierRepository.save(supplier);
 	}
 
 	@Override
@@ -42,8 +39,8 @@ public class SupplierServiceImpl implements ISupplierService {
 	@Override
 	public Supplier retrieveSupplier(Long supplierId) {
 
-		return supplierRepository.findById(supplierId).orElseThrow(() -> new IllegalArgumentException("Invalid user Id:" + supplierId));
+		return supplierRepository.findById(supplierId)
+				.orElseThrow(() -> new IllegalArgumentException("Invalid user Id:" + supplierId));
 	}
-
 
 }

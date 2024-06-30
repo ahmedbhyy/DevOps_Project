@@ -8,15 +8,14 @@ import tn.esprit.devops_project.entities.ProductCategory;
 import tn.esprit.devops_project.entities.Stock;
 import tn.esprit.devops_project.repositories.ProductRepository;
 import tn.esprit.devops_project.repositories.StockRepository;
-
 import java.util.List;
 
 @Service
 @AllArgsConstructor
 public class ProductServiceImpl implements IProductService {
 
-   final ProductRepository productRepository;
-   final StockRepository stockRepository;
+    final ProductRepository productRepository;
+    final StockRepository stockRepository;
 
     @Override
     public Product addProduct(Product product, Long idStock) {

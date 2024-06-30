@@ -17,6 +17,7 @@ import tn.esprit.devops_project.services.iservices.IOperatorService;
 public class OperatorServiceImpl implements IOperatorService {
 
 	OperatorRepository operatorRepository;
+
 	@Override
 	public List<Operator> retrieveAllOperators() {
 		return (List<Operator>) operatorRepository.findAll();
@@ -30,7 +31,7 @@ public class OperatorServiceImpl implements IOperatorService {
 	@Override
 	public void deleteOperator(Long id) {
 		operatorRepository.deleteById(id);
-		
+
 	}
 
 	@Override
