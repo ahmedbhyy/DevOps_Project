@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import static org.mockito.Mockito.*;
+
 import org.springframework.boot.test.mock.mockito.MockBean;
 import tn.esprit.devops_project.repositories.ActivitySectorRepository;
 
@@ -13,7 +13,7 @@ import tn.esprit.devops_project.entities.ActivitySector;
 import javax.transaction.Transactional;
 
 import java.util.List;
-import java.util.Optional;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 
