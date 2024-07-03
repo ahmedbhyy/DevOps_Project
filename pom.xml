@@ -123,10 +123,14 @@
 		</pluginManagement>
 
 		<plugins>
+        
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+                 <profiles>
+         <profile>dev</profile>
+          </profiles> 
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
@@ -182,5 +186,6 @@
 
 		</plugins>
 	</build>
+    <profiles> <profile> <id>dev</id> <properties> <spring.profiles.active>dev</spring.profiles.active> </properties> </profile> </profiles>
 
 </project>
